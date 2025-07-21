@@ -1,0 +1,44 @@
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+/* Optional scroll animations */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.experience-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #333;
+}
+
+.experience-item:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  background-color: #1e1e2f; /* subtle background on hover */
+  border-color: #00bcd4;     /* optional glowing border */
+}
+
+.experience-item:hover {
+  cursor: pointer;
+}
+
+.experience-item .company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
