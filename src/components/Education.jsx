@@ -3,11 +3,12 @@ import './Education.css';
 
 export default function Education() {
   return (
-
-    <section id="education" className="py-5 bg-dark text-light position-relative d-flex align-items-center justify-content-center text-center">
+    
+    <section id="education" className="py-5 bg-dark text-white position-relative">
       <div className="container">
-        <h2 className="section-heading animate-on-scroll text-center mb-5">Education</h2>
-
+        <div className="d-flex align-items-center justify-content-center text-center text-light position-relative">
+          <h2 className="section-heading animate-on-scroll text-center mb-5">Education</h2>
+        </div>
         <div className="timeline">
 
           {/* College */}

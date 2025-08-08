@@ -14,7 +14,7 @@ const projects = [
     ],
     tech: ['Laravel', 'JavaScript', 'MySQL'],
     colors: 'purple',
-    github: 'https://github.com/malayladu/receiptify',
+    github: 'https://Receiptify.in',
     impact: '✅ Improved NGO workflow efficiency by 50%',
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     ],
     tech: ['Laravel', 'TCPDF', 'MySQL'],
     colors: 'orange',
-    github: 'https://github.com/Rushi200410/IPO-Form',
+    github: 'https://rushi200410.github.io/IPO-Form',
   },
   {
     title: 'Smart Voting System (Hackathon Project)',
@@ -46,7 +46,7 @@ const projects = [
     features: ['Teacher/student login', 'Gamified quiz modules', 'Leaderboard & score tracker'],
     tech: ['Laravel', 'Gamification', 'JavaScript'],
     colors: 'red',
-    github: 'https://github.com/Rushi200410/OLEB',
+    github: 'https://rushi200410.github.io/OLEB/',
   },
   {
     title: 'AI-Based Water Level Monitoring',
@@ -139,7 +139,7 @@ const projects = [
 export default function Projects() {
   return (
 
-    <section id="projects" className="py-5 bg-dark text-white position-relative overflow-hidden d-flex align-items-center justify-content-center text-center text-light">
+    <section id="projects" className="py-5 bg-dark text-white position-relative overflow-hidden">
 
   {/* Background Video */}
   <video
@@ -150,16 +150,18 @@ export default function Projects() {
     className="bg-video"
   >
     <source
-      src="https://videos.pexels.com/video-files/852292/852292-hd_1728_1080_25fps.mp4"
+      src="https://videos.pexels.com/video-files/3130182/3130182-uhd_2560_1440_30fps.mp4"
       type="video/mp4"
     />
     Your browser does not support HTML5 video.
   </video>
 
       <div className="container position-relative z-1">
-        <h2 className="section-heading animate-on-scroll text-center fw-bold display-5 mb-5">
-          Latest Projects
-        </h2>
+        <div className="d-flex align-items-center justify-content-center text-center text-light position-relative">
+          <h2 className="section-heading animate-on-scroll text-center fw-bold display-5 mb-5">
+            Latest Projects
+          </h2>
+        </div>
 
         <div className="masonry-layout">
           {projects.map((proj, idx) => (
@@ -173,7 +175,7 @@ export default function Projects() {
                     rel="noreferrer"
                     className="github-button"
                   >
-                    <i className="fab fa-github me-2"></i>GitHub
+                    <i className="fab fa-github me-2"></i>Demo
                   </a>
                 </div>
               </div>

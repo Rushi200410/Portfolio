@@ -55,9 +55,11 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-5 bg-dark text-white d-flex align-items-center justify-content-center text-center text-light position-relative">
+    <section id="skills" className="py-5 bg-dark text-white">
       <div className="container mb-5">
+        <div className="d-flex align-items-center justify-content-center text-center text-light position-relative">
         <h2 className="section-heading text-center fw-bold display-5 animate-on-scroll mb-5">Skills</h2>
+        </div>
 
         <div className="row g-4">
           {categories.map((cat, idx) => (

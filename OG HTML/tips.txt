@@ -1,4 +1,1 @@
 add animation delay
-
-
-git remote set-url origin https://github.com/Rushi200410/portfolio.git

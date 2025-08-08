@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedSection from './components/AnimatedSection';
 import './components/Sections.css';
 import Header from './components/Header';
 import ScrollProgress from './components/ScrollProgress';

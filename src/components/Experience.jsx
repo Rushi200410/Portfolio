@@ -35,11 +35,13 @@ const experiences = [
 export default function Experience() {
   return (
 
-    <section id="experience" className="py-5 bg-transparent text-white position-relative overflow-hidden d-flex align-items-center justify-content-center text-center text-light">
+    <section id="experience" className="py-5 bg-transparent text-white position-relative overflow-hidden">
       <div className="container position-relative z-1">
+        <div className="d-flex align-items-center justify-content-center text-center text-light position-relative">
         <h2 className="section-heading animate-on-scroll text-center fw-bold display-5 mb-5">
             Experience
         </h2>
+        </div>
 
 
         <div className="d-flex flex-column gap-4">
