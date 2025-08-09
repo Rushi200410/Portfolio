@@ -30,15 +30,15 @@ const projects = [
     colors: 'orange',
     github: 'https://rushi200410.github.io/IPO-Form',
   },
-  {
-    title: 'Smart Voting System (Hackathon Project)',
-    image: 'https://placehold.co/600x350/ECFDF5/10B981?text=Smart+Voting',
-    description: 'OTP-based secure voting system with role-based login and real-time result visualization.',
-    features: ['OTP login for voters', 'Admin dashboard', 'Result publishing system'],
-    tech: ['Laravel', 'ESP32', 'MySQL'],
-    colors: 'green',
-    github: 'https://github.com/Rushi200410/Smart-Voting-System',
-  },
+  // {
+  //   title: 'Smart Voting System (Hackathon Project)',
+  //   image: 'https://placehold.co/600x350/ECFDF5/10B981?text=Smart+Voting',
+  //   description: 'OTP-based secure voting system with role-based login and real-time result visualization.',
+  //   features: ['OTP login for voters', 'Admin dashboard', 'Result publishing system'],
+  //   tech: ['Laravel', 'ESP32', 'MySQL'],
+  //   colors: 'green',
+  //   github: 'https://github.com/Rushi200410/Smart-Voting-System',
+  // },
   {
     title: 'Learn Through Play (Hackathon 2nd Runner-up)',
     image: 'https://placehold.co/600x350/FFE4E6/EF4444?text=Learn+Through+Play',
@@ -59,34 +59,22 @@ const projects = [
     ],
     tech: ['ESP32', 'IoT', 'ML'],
     colors: 'blue',
-    github: 'https://github.com/Rushi200410/IPD',
+    github: 'https://rushi200410.github.io/IPD/',
   },
-  {
-    title: 'Attendance Monitoring System',
-    image: 'https://placehold.co/600x350/FDE68A/CA8A04?text=Attendance+System',
-    description: 'Web system to manage band group class attendance, exams, analytics, and dashboards.',
-    features: [
-      'Daily attendance tracking',
-      'Exam result modules',
-      'Dashboard for each class',
-    ],
-    tech: ['PHP', 'MySQL', 'Bootstrap'],
-    colors: 'yellow',
-    github: 'https://github.com/Rushi200410/SSJB-Band-Attendance',
-  },
-    {
-    title: 'Modern Calculator (Java GUI)',
-    image: 'https://placehold.co/600x350/FFF1F2/BE123C?text=Modern+Calculator',
-    description: 'Scientific calculator with keyboard support, multiple themes, and error handling.',
-    features: [
-      'Dark/light mode toggle',
-      'Supports keyboard input',
-      'GUI via Java Swing/AWT',
-    ],
-    tech: ['Java', 'Swing', 'AWT'],
-    colors: 'pink',
-    github: 'https://github.com/Rushi200410/Modern-Calculator',
-  },
+  // {
+  //   title: 'Attendance Monitoring System',
+  //   image: 'https://placehold.co/600x350/FDE68A/CA8A04?text=Attendance+System',
+  //   description: 'Web system to manage band group class attendance, exams, analytics, and dashboards.',
+  //   features: [
+  //     'Daily attendance tracking',
+  //     'Exam result modules',
+  //     'Dashboard for each class',
+  //   ],
+  //   tech: ['PHP', 'MySQL', 'Bootstrap'],
+  //   colors: 'yellow',
+  //   github: 'https://github.com/Rushi200410/SSJB-Band-Attendance',
+  // },
+
 
   {
     title: 'Rail Track Monitoring (SIH Finalist)',
@@ -99,40 +87,52 @@ const projects = [
     ],
     tech: ['ESP32', 'Machine Learning', 'Safety'],
     colors: 'green',
-    github: 'https://github.com/Rushi200410/SIH-Final',
+    github: 'https://rushi200410.github.io/SIH-Final',
   },
+  //   {
+  //   title: 'Smart Quiz App — Adaptive MCQ System',
+  //   image: 'https://placehold.co/600x350/E0F2FE/0891b2?text=Smart+Quiz+App',
+  //   description: 'A Laravel-based quiz platform that adjusts difficulty based on user’s answers. Ideal for exam prep.',
+  //   features: [
+  //     'Role-based login for admin & students',
+  //     'Question pool with tags, levels, categories',
+  //     'Score analytics & performance graph',
+  //     'Adaptive logic to raise/lower difficulty',
+  //   ],
+  //   tech: ['Laravel', 'MySQL', 'JavaScript'],
+  //   colors: 'cyan',
+  //   github: 'https://github.com/Rushi200410/Smart-Quiz-App',
+  //   impact: '✅ Helps students track and improve weak areas dynamically',
+  // },
+  // {
+  // title: 'Personal Portfolio (React + Bootstrap)',
+  // image: 'https://placehold.co/600x350/E0E7FF/3B82F6?text=Portfolio',
+  // description: 'Responsive developer portfolio built with React and Bootstrap, showcasing projects, skills, and experience in a sleek modern layout.',
+  // features: [
+  //   'Smooth scrolling and animated sections',
+  //   'Project cards with hover effects and GitHub links',
+  //   'Responsive layout optimized for all screen sizes',
+  //   'Custom scroll progress indicator',
+  //   'Skills section with dynamic data mapping'
+  // ],
+  // tech: ['React', 'Bootstrap', 'JavaScript'],
+  // colors: 'blue', // Bootstrap's 'info' is typically cyan/blue-green
+  // github: 'https://rushi200410.github.io/Portfolio',
+  // impact: '✅ Built to demonstrate frontend development skills and host real-world project showcases.'
+  // },
     {
-    title: 'Smart Quiz App — Adaptive MCQ System',
-    image: 'https://placehold.co/600x350/E0F2FE/0891b2?text=Smart+Quiz+App',
-    description: 'A Laravel-based quiz platform that adjusts difficulty based on user’s answers. Ideal for exam prep.',
+    title: 'Modern Calculator (Java GUI)',
+    image: 'https://placehold.co/600x350/FFF1F2/BE123C?text=Modern+Calculator',
+    description: 'Scientific calculator with keyboard support, multiple themes, and error handling.',
     features: [
-      'Role-based login for admin & students',
-      'Question pool with tags, levels, categories',
-      'Score analytics & performance graph',
-      'Adaptive logic to raise/lower difficulty',
+      'Dark/light mode toggle',
+      'Supports keyboard input',
+      'GUI via Java Swing/AWT',
     ],
-    tech: ['Laravel', 'MySQL', 'JavaScript'],
-    colors: 'cyan',
-    github: 'https://github.com/Rushi200410/Smart-Quiz-App',
-    impact: '✅ Helps students track and improve weak areas dynamically',
+    tech: ['Java', 'Swing', 'AWT'],
+    colors: 'pink',
+    github: 'https://rushi200410.github.io/Modern_Calculator/',
   },
-  {
-  title: 'Personal Portfolio (React + Bootstrap)',
-  image: 'https://placehold.co/600x350/E0E7FF/3B82F6?text=Portfolio',
-  description: 'Responsive developer portfolio built with React and Bootstrap, showcasing projects, skills, and experience in a sleek modern layout.',
-  features: [
-    'Smooth scrolling and animated sections',
-    'Project cards with hover effects and GitHub links',
-    'Responsive layout optimized for all screen sizes',
-    'Custom scroll progress indicator',
-    'Skills section with dynamic data mapping'
-  ],
-  tech: ['React', 'Bootstrap', 'JavaScript'],
-  colors: 'blue', // Bootstrap's 'info' is typically cyan/blue-green
-  github: 'https://github.com/Rushi200410/React-Portfolio',
-  impact: '✅ Built to demonstrate frontend development skills and host real-world project showcases.'
-  },
-
 ];
 
 
@@ -175,7 +175,7 @@ export default function Projects() {
                     rel="noreferrer"
                     className="github-button"
                   >
-                    <i className="fab fa-github me-2"></i>Demo
+                    Dive In 🚀
                   </a>
                 </div>
               </div>

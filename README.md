@@ -1,3 +1,30 @@
+git add .
+git commit -m "Updated portfolio with new changes"
+git push origin master
+
+
+npm run build
+npm run deploy
+
+
+
+
+<!-- If you did NOT set up npm gh-pages before (manual method): -->
+
+npm run build
+
+git checkout gh-pages
+
+Copy the contents of build/ (or dist/) into the root of this branch.
+
+git add .
+git commit -m "Update site with latest changes"
+git push origin gh-pages
+
+git checkout master
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
